@@ -1,6 +1,7 @@
 # Year Progress Twitter Bot in NodeJS
 
-Hi, I'm Victor [@clarify_mr](https://twitter.com/clarify_mr). 
+Hi, I'm Victor [@clarify_mr](https://twitter.com/clarify_mr) creator of Year Progress Twitter Bot in NodeJS. 
+Do you love to see him in action? [@YProgressNodeJS](https://twitter.com/YProgressNodeJS)
 
 Inspired by [@year_progress](https://twitter.com/year_progress) twitter bot created by Filip Hráček.
 
