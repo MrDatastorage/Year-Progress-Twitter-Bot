@@ -1,7 +1,8 @@
 # Year Process Twitter Bot in NodeJS
 
 Hi, I'm Victor [@clarify_mr](https://twitter.com/clarify_mr). 
-I'm inspired by this amazing [@year_progress](https://twitter.com/year_progress) twitter bot created by Filip Hráček.
+
+Inspired by this amazing [@year_progress](https://twitter.com/year_progress) twitter bot created by Filip Hráček.
 
 # What does this twitter bot?
 This bot post the year Progress in percents in a tweet.
