@@ -13,6 +13,7 @@
     "url": "https://github.com/MrDatastorage/Year-Process-Twitter-Bot.git"
   },
   "dependencies": {
+    "cron": "^1.5.1",
     "twit": "^2.2.11"
   }
 }
