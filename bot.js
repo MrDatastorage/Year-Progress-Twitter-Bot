@@ -65,7 +65,6 @@ const specialDayEmoji = {
 console.log('Current day : ' + currentDay);
 console.log('Current perc : ' + currentPerc);
 console.log('Testing the bar' + make_bar(currentPerc, bar_styles[1]) + ' ' + currentPerc.toFixed(2) + '%');
-postyearProgress(currentPerc, bar_styles);
 
 // Cronjob for daily post
 new CronJob('0 0 * * *', function() {
