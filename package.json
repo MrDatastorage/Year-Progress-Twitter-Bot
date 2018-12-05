@@ -1,7 +1,7 @@
 {
-  "name": "year-process-twitter-bot",
+  "name": "year-progress-twitter-bot",
   "version": "0.0.0",
-  "description": "year process twitter bot that post year Progress in percents in a tweet",
+  "description": "year progress twitter bot that post year Progress in percents in a tweet",
   "main": "index.js",
   "scripts": {
     "start": "node bot.js"
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MrDatastorage/Year-Process-Twitter-Bot.git"
+    "url": "https://github.com/MrDatastorage/Year-Progress-Twitter-Bot.git"
   },
   "dependencies": {
     "cron": "^1.5.1",

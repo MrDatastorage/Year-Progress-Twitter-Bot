@@ -1,5 +1,5 @@
 /**
- * Year Process Twitter Bot in NodeJS
+ * Year Progress Twitter Bot in NodeJS
  * This Twitter Bot post the year progress in percents in a tweet.
  *
  * Author Victor Nizeyimanaa
@@ -65,19 +65,20 @@ const specialDayEmoji = {
 console.log('Current day : ' + currentDay);
 console.log('Current perc : ' + currentPerc);
 console.log('Testing the bar' + make_bar(currentPerc, bar_styles[1]) + ' ' + currentPerc.toFixed(2) + '%');
+postyearProgress(currentPerc, bar_styles);
 
 // Cronjob for daily post
 new CronJob('0 0 * * *', function() {
-    postyearProcess();
+    postyearProgress(currentPerc, bar_styles);
   }, null, true, 'UTC');
 
 // Function for Twitter post
-function postyearProcess(currentPerc, bar_styles) {
+function postyearProgress(currentPerc, bar_styles) {
 
     
 	// Post a tweet if it is a special day like christmas, new year eve etc.... 
     var special = 1;
-    var bar = make_bar(currentPerc, bar_styles[1]) + ' ' + currentPerc.toFixed(2) + '%';
+    var bar = make_bar(currentPerc, bar_styles[1]) + ' ' + currentPerc.toFixed(2) + '% #YearProgress 🍾';
 
 	
 	// Twitter post
@@ -88,7 +89,7 @@ function postyearProcess(currentPerc, bar_styles) {
 
 }
 
-// Function for generating the amazing process bar
+// Function for generating the amazing progress bar
 function repeat(s, i) {
 	var r = '';
 	for (var j = 0; j < i; j++) r += s;
